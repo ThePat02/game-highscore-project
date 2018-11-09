@@ -2,29 +2,30 @@ html
 {
   /*font color of basic text-align*/
   color: white;
+  background-color: #152EAA;
 }
 
 .box-1
 {
   /*Color of the bright box*/
-  background-color: #ed59ff;
+  background-color: #3C58E7;
 }
 
 .box-2
 {
   /*Color of the dark box*/
-  background-color: #560060;
+  background-color: #0A154D;
 }
 
 .button-1
 {
   /*Color of the button*/
-  background-color: #ff2154;
+  background-color: #F4B961;
 }
 
 .button-1:hover
 {
   /*Color if mouse is over button-1*/
   background-color: white;
-  color: #ff2154;
+  color: #F4B961;
 }
