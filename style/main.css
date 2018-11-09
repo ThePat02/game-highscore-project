@@ -1,0 +1,75 @@
+html
+{
+  font-family: Arial;
+  color: white;
+  background-color: #670072;
+  padding: 30px;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+  font-family: Valken;
+}
+
+.ranking
+{
+
+}
+
+.box-1
+{
+  background-color: #ed59ff;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.box-2
+{
+  background-color: #560060;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.button
+{
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.button-1
+{
+  background-color: #ff2154;
+}
+
+.button-1:hover
+{
+  background-color: white;
+  color: #ff2154;
+}
+
+.badge
+{
+  width: 17px;
+  height: 17px;
+  border-radius: 25px;
+  background: red;
+  float:left;
+}
+
+.gold
+{
+  background: #f2cd00;
+}
+
+.silver
+{
+  background: #bcbcbc;
+}
+
+.bronze
+{
+  background: #c66565;
+}
