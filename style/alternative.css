@@ -1,32 +1,30 @@
-/* Made by Mox */
 html
 {
   /*font color of basic text-align*/
   color: white;
-  background-color: #152EAA;
 }
 
 .box-1
 {
   /*Color of the bright box*/
-  background-color: #3C58E7;
+  background-color: #ed59ff;
 }
 
 .box-2
 {
   /*Color of the dark box*/
-  background-color: #0A154D;
+  background-color: #560060;
 }
 
 .button-1
 {
   /*Color of the button*/
-  background-color: #F4B961;
+  background-color: #ff2154;
 }
 
 .button-1:hover
 {
   /*Color if mouse is over button-1*/
   background-color: white;
-  color: #F4B961;
+  color: #ff2154;
 }
