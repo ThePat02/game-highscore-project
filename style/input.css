@@ -1,0 +1,15 @@
+input
+{
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 30px;
+  text-align: center;
+  font-family: Valken;
+  color: white;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
