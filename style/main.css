@@ -36,6 +36,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Valken;
 }
 
+.button-full {
+  display: block;
+  width: 70%;
+}
+
 .button-1 {
   background-color: #ff2154;
 }
