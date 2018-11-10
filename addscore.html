@@ -1,44 +1,50 @@
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Add Score</title>
 
-    <!-- Scripts -->
-    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
-    <script src="scripts/master.js" charset="utf-8"></script>
+<head>
+  <meta charset="utf-8">
+  <title>Add Score</title>
 
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="style/main.css">
-    <link rel="stylesheet" href="style/input.css">
+  <!-- Scripts -->
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+  <script src="scripts/master.js" charset="utf-8"></script>
 
-    <!-- More STUFF -->
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style/main.css">
+  <link rel="stylesheet" href="style/input.css">
 
-  </head>
-  <body>
+  <!-- More STUFF -->
 
-      <center><h1>Score hinzufügen</h1></center>
+</head>
 
-      <br><br><br><br>
+<body>
 
-      <center>
-        <input type="text" id="username" placeholder="Username eingeben" autocomplete="off">
+  <center>
+    <h1>Score hinzufügen</h1>
+  </center>
 
-        <br><br>
+  <br><br><br><br>
 
-        <div class="box-2" style="width:45%"><input type="text" id="score" placeholder="Score eingeben" autocomplete="off"></div>
+  <center>
+    <input type="text" id="username" placeholder="Username eingeben" autocomplete="off">
 
+    <br><br>
 
-        <br><br>
-
-
-        <a href="" class="button button-1 button-big">Eintragen</a>
-      </center>
+    <div class="box-2" style="width:45%"><input type="text" id="score" placeholder="Score eingeben" autocomplete="off"></div>
 
 
-    <!-- Scriptcalls -->
-    <script type="text/javascript">
-      loadScripts(true);
-    </script>
+    <br><br>
 
-  </body>
+
+    <a href="" class="button button-1 button-big">Eintragen</a>
+  </center>
+
+
+  <!-- Scriptcalls -->
+  <script type="text/javascript">
+    loadScripts(true);
+    saveToCSV();
+  </script>
+
+</body>
+
 </html>
