@@ -2,7 +2,7 @@
 
 function loadScripts(arg)
 {
-  // Loads all other .js files into the page
+  // Loads all other .js files into the page.
 
   var a = document.createElement("script");
   a.type = "text/javascript";
