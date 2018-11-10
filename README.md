@@ -10,6 +10,7 @@ Elias<br>
 Paul (for the lulz)
 
 ## Structure
+
 ### HTML Files
 
 -   `index.html` > Home bzw. Navigation zu den anderen Seiten
@@ -19,12 +20,16 @@ Paul (for the lulz)
 -   `hangmanscore.html` > Request für Hangman-Game
 
 ### Folders
-- Style > Für stylesheets etc.
-- style/alternative > Für alternative CSS-Dateien auf Basis von `alternative-template.css`
-- scripts > Für `.js` Dateien (ausgenommen `settings.js`)
 
-
+-   Style > Für stylesheets etc.
+-   style/alternative > Für alternative CSS-Dateien auf Basis von `alternative-template.css`
+-   scripts > Für `.js` Dateien (ausgenommen `settings.js`)
 
 ## Link to Github Pages
 
 [Github Pages](https://thepat02.github.io/game-highscore-project/)
+
+## Useful resources
+
+-   [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code)
+-   [Download XAMPP](https://www.apachefriends.org/de/index.html)
