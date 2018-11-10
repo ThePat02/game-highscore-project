@@ -9,6 +9,21 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Valken;
 }
 
+input
+{
+  border: none;
+  background: none;
+  outline: none;
+  text-align: center;
+  font-family: Valken;
+  color: white;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
 .ranking {}
 
 .box-1 {
