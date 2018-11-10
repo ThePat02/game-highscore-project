@@ -1,4 +1,4 @@
 /*------ Settings ------*/
 
-// Theme setting (Enter style or null)
-var theme = null;
+// Theme setting (Enter style or default)
+var theme = "default";

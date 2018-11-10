@@ -3,7 +3,7 @@
 function changeTheme(theme)
 {
   // Changes the theme of the scoreboard according to settings.js
-  if (theme != null)
+  if (theme != "default")
   {
     var altTheme = document.createElement('link');
     altTheme.rel = "stylesheet";
