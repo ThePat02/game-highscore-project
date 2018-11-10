@@ -29,6 +29,14 @@ Paul (for the lulz)
 
 [Github Pages](https://thepat02.github.io/game-highscore-project/)
 
+## To-Do List
+
+- Animated Buttons
+- Animated Background
+- Saving system
+- Live-Update
+- API for hangman game
+
 ## Useful resources
 
 -   [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code)
