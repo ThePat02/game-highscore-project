@@ -31,11 +31,12 @@ Paul (for the lulz)
 
 ## To-Do List
 
-- Animated Buttons
-- Animated Background
-- Saving system
-- Live-Update
-- API for hangman game
+-   Animated Buttons
+-   Animated Background
+-   Saving system
+-   Live-Update
+-   API for hangman game
+-   New alternative color templates
 
 ## Useful resources
 
