@@ -10,18 +10,21 @@ html
 {
   /*Color of the bright box*/
   background-color: #ed59ff;
+  color: white;
 }
 
 .box-2
 {
   /*Color of the dark box*/
   background-color: #560060;
+  color: white;
 }
 
 .button-1
 {
   /*Color of the button*/
   background-color: #ff2154;
+  color: white;
 }
 
 .button-1:hover
