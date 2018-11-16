@@ -1,0 +1,35 @@
+html
+{
+  /*font color of basic text-align*/
+  color: white;
+  /*background color*/
+  background-color: #009ACD;
+}
+
+.box-1
+{
+  /*Color of the bright box*/
+  background-color: black;
+  color: white;
+}
+
+.box-2
+{
+  /*Color of the dark box*/
+  background-color: #104E8B;
+  color: white;
+}
+
+.button-1
+{
+  /*Color of the button*/
+  background-color: lightgray;
+  color: black;
+}
+
+.button-1:hover
+{
+  /*Color if mouse is over button-1*/
+  background-color: white;
+  color: black;
+}
