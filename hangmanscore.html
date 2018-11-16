@@ -1,0 +1,22 @@
+<html>
+<head>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+  <script src="scripts/master.js" charset="utf-8"></script>
+</head>
+<!-- hangmanscore.html?username=help&score=12-->
+<script>
+     	$.urlParam = function(name){
+	    var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+	    return results[1] || 0;
+    	}
+
+	      window.onload = function() 
+		{
+
+
+	    var username = decodeURI($.urlParam('username'));
+	    var score = decodeURI($.urlParam('score'));
+		alert(username + " " + score);
+		}
+</script>
+</html>
