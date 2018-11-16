@@ -41,8 +41,6 @@ input:focus {
 .button {
   color: white;
   text-decoration: none;
-  padding: 20px;
-  border-radius: 15px;
   transition: 0.3s;
   cursor: pointer;
   overflow: hidden;
@@ -59,11 +57,9 @@ input:focus {
 }
 
 .button-1 {
-  background-color: #ff2154;
 }
 
 .button-1:hover {
-  background-color: white;
   color: #ff2154;
 }
 
