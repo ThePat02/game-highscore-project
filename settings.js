@@ -1,4 +1,5 @@
 /*------ Settings ------*/
 
 // Theme setting (Enter style or default)
-var theme = "alt-lightblue.css";
+
+var theme = "alt-nightblue.css";
