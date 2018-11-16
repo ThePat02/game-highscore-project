@@ -6,7 +6,7 @@ Highscore web-application for TDOT BORG Birkfeld. Never use C# or you will die!
 
 [Pat](https://github.com/ThePat02)<br>
 [Max](https://github.com/TheMax01)<br>
-Elias<br>
+[Elias](https://github.com/Shronkl)<br>
 Paul (for the lulz)
 
 ## Structure
