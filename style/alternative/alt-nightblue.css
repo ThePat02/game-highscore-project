@@ -1,8 +1,8 @@
-/* Made by Mox */
 html
 {
   /*font color of basic text-align*/
   color: white;
+  /*background color*/
   background-color: #152EAA;
 }
 
@@ -10,18 +10,21 @@ html
 {
   /*Color of the bright box*/
   background-color: #3C58E7;
+  color: white;
 }
 
 .box-2
 {
   /*Color of the dark box*/
   background-color: #0A154D;
+  color: white;
 }
 
 .button-1
 {
   /*Color of the button*/
   background-color: #F4B961;
+  color: white;
 }
 
 .button-1:hover
