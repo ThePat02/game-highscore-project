@@ -14,30 +14,17 @@ function loadScripts(arg)
   s.src = "scripts/visuals.js";
   $("head").append(s);
 
-  var s = document.createElement("script");
-  s.type = "text/javascript";
-  s.src = "scripts/savingsystem.js";
-  $("head").append(s);
+  var b = document.createElement("script");
+  b.type = "text/javascript";
+  b.src = "https://cdn.firebase.com/js/client/2.4.2/firebase.js";
+  $("head").append(b)
 
-  var s = document.createElement("script");
-  s.type = "text/javascript";
-  s.src = "https://www.gstatic.com/firebasejs/5.5.8/firebase-app.js";
-  $("head").append(s)
+  var ee = document.createElement("script");
+  ee.type = "text/javascript";
+  ee.src = "scripts/data-firebase.js";
+  $("head").append(ee);
 
-  var s = document.createElement("script");
-  s.type = "text/javascript";
-  s.src = "https://www.gstatic.com/firebasejs/5.5.8/firebase.js";
-  $("head").append(s);
-
-  var s = document.createElement("script");
-  s.type = "text/javascript";
-  s.src = "https://www.gstatic.com/firebasejs/5.5.8/firebase-database.js";
-  $("head").append(s);
-
-  var s = document.createElement("script");
-  s.type = "text/javascript";
-  s.src = "scripts/data-firebase.js";
-  $("head").append(s);
+  alert("yes");
 
 
 
