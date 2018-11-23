@@ -24,7 +24,6 @@ function loadScripts(arg)
   ee.src = "scripts/data-firebase.js";
   $("head").append(ee);
 
-  alert("yes");
 
 
 

@@ -8,6 +8,7 @@
   <!-- Scripts -->
   <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
   <script src="scripts/master.js" charset="utf-8"></script>
+  <script src="scripts/save.js" charset="utf-8"></script>
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="style/main.css">
@@ -43,7 +44,7 @@
           <br><br>
 
 
-          <a href="" class="button button-1 button-big">Eintragen</a>
+          <a class="button button-1 button-big" onclick="submitScore()">Eintragen</a>
         </center>
 
       </div>
@@ -52,6 +53,11 @@
 
         <div class="box-2">
           <h2>Highscore</h2>
+
+          <div id="board">
+
+          </div>
+
         </div>
 
       </div>
@@ -60,6 +66,7 @@
   </center>
 
   <!-- Scriptcalls -->
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
   <script type="text/javascript">
     loadScripts(true);
   </script>
