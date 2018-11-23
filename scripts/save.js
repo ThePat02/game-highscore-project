@@ -14,6 +14,9 @@ function submitScore() {
   allscores = allscores + username + ";" + score + "\n";
 
   showBoard();
+
+  document.getElementById('username').value = "";
+  document.getElementById('score').value = "";
 }
 
 function showBoard() {
@@ -33,6 +36,7 @@ function showBoard() {
   }
 
 }
+
 
 function CSVToArray(strData, strDelimiter) {
   // Check to see if the delimiter is defined. If not,
@@ -118,3 +122,5 @@ function CSVToArray(strData, strDelimiter) {
   // Return the parsed data.
   return (arrData);
 }
+
+window.onbeforeunload = function () {return false;}
